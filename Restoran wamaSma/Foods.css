@@ -1,0 +1,390 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@100..900&display=swap");
+* {
+  background-color: rgba(252, 220, 131, 0.925);
+  padding: 1.5px;
+  margin: 0;
+  font-family: "Noto Sans Georgian", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100px;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  scroll-behavior: smooth;
+}
+/* lll Header */
+
+.header-conteiner {
+  margin: auto;
+  max-width: 1200px;
+  width: 100%;
+}
+.header-conteiner-main-content {
+  display: flex;
+  justify-content: space-evenly;
+}
+.header-conteiner-main-content-ul {
+  padding: 15px;
+  text-align: center;
+  width: 700px;
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  gap: 20px;
+  font-size: 23px;
+}
+.header-conteiner li,
+.header-conteiner a {
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+.header-conteiner a {
+  transition-duration: 1s;
+}
+.header-conteiner a:hover {
+  text-decoration: underline;
+}
+
+hr {
+  border: 2px dashed black;
+}
+@media screen and (max-width: 650px) {
+  .header-conteiner-main-content-ul {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 450px) {
+  h1 {
+    font-size: 25px;
+  }
+  .header-conteiner-main-content-ul {
+    font-size: 10px;
+    gap: 10px;
+  }
+}
+/* lll content */
+.content-conteiner {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  max-width: 1500px;
+  width: 100%;
+  padding: 30px 0;
+  gap: 120px;
+}
+.content-conteiner img {
+  border-radius: 15px;
+  height: 400px;
+  width: fit-content;
+}
+.content-conteiner-about-food {
+  margin-top: 30px;
+  text-align: center;
+}
+.content-conteiner h2 {
+  font-size: 50px;
+  padding: 5px;
+}
+.content-conteiner p {
+  font-size: 30px;
+  font-weight: 700;
+  padding: 5px;
+}
+.content-conteiner h3 {
+  font-size: 40px;
+  padding: 5px;
+}
+.content-conteiner-about-food-buy {
+  display: flex;
+  justify-content: center;
+}
+.content-conteiner-about-food-buy a {
+  display: block;
+  padding: 10px;
+  margin-top: 40px;
+  background-color: black;
+  width: 500px;
+  color: white;
+  font-size: 35px;
+  text-decoration: none;
+  border-radius: 12px;
+  transition-duration: 1s;
+}
+.content-conteiner-about-food-buy a:hover {
+  width: 600px;
+}
+
+@media screen and (max-width: 1400px) {
+  .content-conteiner img {
+    height: 300px;
+  }
+  .content-conteiner h2 {
+    font-size: 40px;
+  }
+  .content-conteiner p {
+    font-size: 20px;
+  }
+  .content-conteiner h3 {
+    font-size: 26px;
+  }
+  .content-conteiner-about-food-buy a {
+    width: 370px;
+  }
+  .content-conteiner-about-food-buy a:hover {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .content-conteiner img {
+    height: 270px;
+  }
+  .content-conteiner h2 {
+    font-size: 33px;
+  }
+  .content-conteiner p {
+    font-size: 15px;
+  }
+  .content-conteiner h3 {
+    font-size: 23px;
+  }
+  .content-conteiner-about-food-buy a {
+    width: 300px;
+  }
+  .content-conteiner-about-food-buy a:hover {
+    width: 340px;
+  }
+}
+@media screen and (max-width: 870px) {
+  .content-conteiner img {
+    height: 200px;
+  }
+  .content-conteiner {
+    gap: 60px;
+  }
+  .content-conteiner h2 {
+    font-size: 20px;
+  }
+  .content-conteiner p {
+    font-size: 13px;
+  }
+  .content-conteiner h3 {
+    font-size: 17px;
+  }
+  .content-conteiner-about-food-buy a {
+    width: 240px;
+    padding: 4px;
+    font-size: 20px;
+    height: fit-content;
+    margin-top: 30px;
+  }
+  .content-conteiner-about-food-buy a:hover {
+    width: 240px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .content-conteiner {
+    max-width: fit-content;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .content-conteiner img {
+    height: 300px;
+  }
+  .content-conteiner h2 {
+    font-size: 30px;
+  }
+  .content-conteiner p {
+    font-size: 16px;
+  }
+  .content-conteiner h3 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 534px) {
+  .content-conteiner img {
+    height: 270px;
+    width: 100%;
+  }
+  .content-conteiner h2 {
+    font-size: 26px;
+  }
+  .content-conteiner p {
+    font-size: 13px;
+  }
+  .content-conteiner h3 {
+    font-size: 16px;
+  }
+}
+
+/* lll footer */
+
+.footer-container {
+  margin: auto;
+  max-width: 1300px;
+  width: 100%;
+}
+.footer-container-content h2 {
+  text-align: center;
+  font-size: 40px;
+  padding: 60px 0 30px 0px;
+}
+/* Hide scrollbar, but keep horizontal scrolling */
+.footer-container-content ul {
+  display: flex;
+  gap: 15px;
+  overflow-x: auto; /* Enables horizontal scroll */
+  scrollbar-width: auto; /* Firefox: hides scrollbar */
+}
+.footer-container-content ul {
+  scroll-behavior: smooth; /* Smooth scrolling effect */
+}
+
+.footer-container-content ul::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, and Opera: hides scrollbar */
+}
+
+/* Ensure list items remain fixed size */
+.footer-container-content li {
+  display: inline-block;
+  border: 3px solid black;
+  list-style: none;
+  border-radius: 12px;
+  width: 150px;
+  height: 150px;
+  background-color: rgb(206, 97, 97);
+  flex-shrink: 0; /* Prevents shrinking */
+}
+
+.footer-container-content li a {
+  border-radius: 6px;
+  height: fit-content;
+  font-size: 20px;
+  color: rgb(231, 231, 231);
+  width: fit-content;
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 1);
+  text-align: center;
+  display: block;
+  margin: auto;
+  margin-top: 110px;
+  transition-duration: 1s;
+}
+
+@media screen and (min-width: 1400px) {
+  .footer-container-content li {
+    width: 200px;
+    height: 200px;
+  }
+  .footer-container-content li a {
+    margin-top: 157px;
+    font-size: 26px;
+  }
+  .img-1 {
+    background-image: url(images/მწვადი.PNG);
+    background-size: 300px;
+    background-position: center;
+  }
+  .img-2 {
+    background-image: url(images/ხინკალი.webp);
+    background-size: 300px;
+    background-position: center;
+  }
+  .img-3 {
+    background-image: url(images/ქაბაბი.jpg);
+    background-size: 300px;
+    background-position: center;
+  }
+  .img-4 {
+    background-image: url(images/ხაშლამა.jpg);
+    background-size: 300px;
+    background-position: center;
+  }
+  .img-5 {
+    background-image: url(images/ჩაქაფული.jpg);
+    background-size: 300px;
+    background-position: center;
+  }
+  .img-6 {
+    background-image: url(images/ჩახოხბილი.jpg);
+    background-size: 300px;
+    background-position: center;
+  }
+  .img-7 {
+    background-image: url(images/ხაჭაპური.webp);
+    background-size: 300px;
+    background-position: center;
+  }
+  .img-8 {
+    background-image: url(images/ლობიანი.jpg);
+    background-size: 300px;
+    background-position: center;
+  }
+}
+.img-1 {
+  background-image: url(images/მწვადი.PNG);
+  background-size: 250px;
+  background-position: center;
+}
+.img-2 {
+  background-image: url(images/ხინკალი.webp);
+  background-size: 250px;
+  background-position: center;
+}
+.img-3 {
+  background-image: url(images/ქაბაბი.jpg);
+  background-size: 250px;
+  background-position: center;
+}
+.img-4 {
+  background-image: url(images/ხაშლამა.jpg);
+  background-size: 250px;
+  background-position: center;
+}
+.img-5 {
+  background-image: url(images/ჩაქაფული.jpg);
+  background-size: 250px;
+  background-position: center;
+}
+.img-6 {
+  background-image: url(images/ჩახოხბილი.jpg);
+  background-size: 250px;
+  background-position: center;
+}
+.img-7 {
+  background-image: url(images/ხაჭაპური.webp);
+  background-size: 250px;
+  background-position: center;
+}
+.img-8 {
+  background-image: url(images/ლობიანი.jpg);
+  background-size: 250px;
+  background-position: center;
+}
+/* Customizing the horizontal scrollbar */
+.footer-container-content ul::-webkit-scrollbar {
+  height: 12px; /* Adjust scrollbar height */
+}
+
+.footer-container-content ul::-webkit-scrollbar-thumb {
+  background-color: #888; /* Color of the scrollbar handle */
+  border-radius: 10px; /* Rounded corners for the scrollbar handle */
+  border: 3px solid #555; /* Adds space around the handle with a border color */
+}
+
+.footer-container-content ul::-webkit-scrollbar-track {
+  background-color: #f1f1f1; /* Color of the scrollbar track (background) */
+  border-radius: 10px; /* Rounded corners for the scrollbar track */
+}
+
+.footer-container-content ul::-webkit-scrollbar-thumb:hover {
+  background-color: #555; /* Darker color when hovered */
+}
+
+/* Optional: Styles for other browsers (Firefox) */
+.footer-container-content ul {
+  scrollbar-width: thin; /* Makes the scrollbar thinner */
+  scrollbar-color: #888 #f1f1f1; /* Handle color, track color */
+}

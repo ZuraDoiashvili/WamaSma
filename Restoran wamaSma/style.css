@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@100..900&display=swap");
+* {
+  background-color: rgba(252, 220, 131, 0.925);
+  padding: 1.5px;
+  margin: 0;
+  font-family: "Noto Sans Georgian", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100px;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  scroll-behavior: smooth;
+}
+/* lll Header */
+
+.header-conteiner {
+  margin: auto;
+  max-width: 1200px;
+  width: 100%;
+}
+.header-conteiner-main-content {
+  display: flex;
+  justify-content: space-evenly;
+}
+.header-conteiner-main-content-ul {
+  padding: 15px;
+  text-align: center;
+  width: 700px;
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  gap: 20px;
+  font-size: 23px;
+}
+.header-conteiner li,
+.header-conteiner a {
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+.header-conteiner a {
+  transition-duration: 1s;
+}
+.header-conteiner a:hover {
+  text-decoration: underline;
+}
+
+hr {
+  border: 2px dashed black;
+}
+/* lll Content About */
+
+.content-conteiner-page-about p {
+  font-weight: 500;
+  padding: 30px;
+  font-size: 35px;
+  text-align: center;
+}
+
+/* lll Content Food */
+
+.content-conteiner {
+  max-width: 1300px;
+  width: 100%;
+  margin: auto;
+}
+.content-conteiner-page-food {
+  margin-top: 60px;
+}
+.content-conteiner-page-food h2 {
+  text-align: center;
+  font-size: 52px;
+}
+
+.content-conteiner-page-food ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  list-style: none;
+  margin-top: 30px;
+}
+.content-conteiner-page-food li {
+  border: 3px solid black;
+  border-radius: 12px;
+  width: 270px;
+  height: 270px;
+  background-color: rgb(206, 97, 97);
+  text-decoration: none;
+}
+.content-conteiner-page-food a {
+  padding: 4px 10px;
+  border-radius: 6px;
+  height: fit-content;
+  font-size: 30px;
+  color: rgb(231, 231, 231);
+  width: fit-content;
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 1);
+  text-align: center;
+  display: block;
+  margin: auto;
+  margin-top: 210px;
+  transition-duration: 1s;
+}
+.content-conteiner-page-food a:hover {
+  font-size: 36px;
+}
+
+.img-1 {
+  background-image: url(images/მწვადი.PNG);
+}
+.img-2 {
+  background-image: url(images/ხინკალი.webp);
+  background-size: 450px;
+  background-position: center;
+}
+.img-3 {
+  background-image: url(images/ქაბაბი.jpg);
+  background-size: 450px;
+  background-position: center;
+}
+.img-4 {
+  background-image: url(images/ხაშლამა.jpg);
+  background-size: 450px;
+  background-position: center;
+}
+.img-5 {
+  background-image: url(images/ჩაქაფული.jpg);
+  background-size: 450px;
+  background-position: center;
+}
+.img-6 {
+  background-image: url(images/ჩახოხბილი.jpg);
+  background-size: 450px;
+  background-position: center;
+}
+.img-7 {
+  background-image: url(images/ხაჭაპური.webp);
+  background-size: 450px;
+  background-position: center;
+}
+.img-8 {
+  background-image: url(images/ლობიანი.jpg);
+  background-size: 450px;
+  background-position: center;
+}
+@media screen and (max-width: 650px) {
+  .header-conteiner-main-content-ul {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 605px) {
+  .content-conteiner-page-about p {
+    font-size: 20px;
+  }
+  .content-conteiner-page-food h2 {
+    font-size: 35px;
+  }
+
+  .content-conteiner-page-food li {
+    width: 190px;
+    height: 190px;
+  }
+  .content-conteiner-page-food a {
+    margin-top: 148px;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  h1 {
+    font-size: 25px;
+  }
+  .header-conteiner-main-content-ul {
+    font-size: 10px;
+    gap: 10px;
+  }
+  .content-conteiner-page-about p {
+    font-size: 16px;
+  }
+  .content-conteiner-page-food li {
+    width: 150px;
+    height: 150px;
+  }
+  .content-conteiner-page-food a {
+    margin-top: 120px;
+    font-size: 16px;
+  }
+}
